@@ -1,0 +1,862 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+.main h3 span{
+
+color: #4d1414;
+
+}
+
+.main h2 span {
+
+  color: #0033ff87;
+  font-size: 3em;
+font-weight: 600;
+display: block;
+margin-top: 10px;
+
+}
+
+.main h3{
+
+  color: #ffffff;
+font-size: 2em;
+  font-weight: 700;
+      letter-spacing: 1px;
+          margin-top: 10px;
+              margin-bottom: 30px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .project-card {
+ 
+
+
+    background-color: #000000;
+    border:1px solid #fad8d8;
+    min-height: 14em ;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 500px;
+
+   
+
+}
+
+.project-card:hover{
+
+    transform: scale(1.1);
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+.project-image{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      
+
+}
+
+
+
+
+.project-image img{
+
+        width: 100%;
+        height: auto;
+        display: flex;
+       
+}
+
+
+
+.project-info{
+
+    padding: 1em;
+    
+}
+
+
+
+
+.project-cat{
+
+        font-size: 1em;
+color: #fdfdfd;
+
+    }
+
+.project-title{
+
+
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.project-title span{
+
+
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+color: #fad8d8;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000;
+        padding: 40px 20px;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+       
+
+      }
+      
+      .profile-picture {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%; 
+        overflow: hidden; 
+        margin-bottom: 20px;
+        border: 5px solid #FFCC00; 
+      }
+      
+      .profile-picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .about-text p {
+        font-size: 1.6em;
+        color: #f1eeee;
+        margin: 0;
+        font-weight: 500;
+      }
+    
+      
+    
+
+    
+
+    
+    
+    
+      .main-btn2 {
+    
+    
+        color: #FFCC00;
+        background-color: #fbeded;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 600;
+        display: inline-block;
+        padding: 10px;
+        letter-spacing: 1px;
+        border-radius:  15px; 
+        margin-bottom: 40px;
+        transition: 0.7s ease;
+        
+        
+        
+        }
+         
+        
+        .main-btn2:hover{
+        
+        background-color: #777;
+        transform: scale(1);
+        
+        
+        }
+    
+    
+    
+    
+    
+     .about-me h2{
+    
+            
+    
+            font-size: 2em;
+        color: #fffefe;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        }
+
+
+
+
+
+.social-icons a{
+
+    color: #050505;
+    font-size: 1.7em;
+    padding-right: 30px;
+    padding: 30px;
+    
+    
+    
+    
+    
+    }
+
+
+                                   
+
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .social-icons {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px; 
+      }
+      
+      .social-icons a {
+          color: #050505;
+          font-size: 1.2em;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          padding: 10px 15px;
+          border-radius: 15px;
+          background-color: #fbeded;
+          transition: 0.3s ease-in-out;
+      }
+      
+      .social-icons a:hover {
+          background-color: #777;
+          color: #fff;
+          transform: scale(1.05);
+      }
+      
+      .social-icons .column {
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .social-icons .row {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          justify-content: center;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section4 h3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 40px 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+ 
+
+
+}
+
+
+
+      .content-container4 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        gap: 20px;
+    }
+    
+    .card4{
+        background-color: #776a36;
+        border: 1px solid #FFCC00;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px; 
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .card4:hover {
+        transform: translateY(-10px); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card4 img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover; 
+        border-bottom: 1px solid #000000;
+    }
+    
+    .card-content4 {
+        padding: 15px;
+    }
+    
+    .card-content4 h3 {
+        font-size: 1.5em;
+        color: #4d1414;
+        margin-bottom: 10px;
+    }
+    
+    .card-content4 p {
+        font-size: 1em;
+        color: #000000;
+        line-height: 1.5;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1023px) {
+
+
+
+
+
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #080707;
+    padding: 30px 15px;
+    border-radius: 15px;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  .about-me p{
+    padding: 10px;
+
+  }
+
+
+.social-icons .row{
+
+flex-direction: column;
+padding: 12px;
+}
+
+        .about-text{
+
+          font-size: 0.5em;
+          padding: 12px;
+
+        }
+
+
+
+
+
+.social-icons{
+padding: 12px;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.main-btn2{
+ 
+
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+.project-card{
+
+
+   
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px solid #fff ;
+  min-height: 14em;
+  border-radius: 10px; ;
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+  width: 20em;
+  max-width: 600px;
+  background-color: #000000;
+  box-shadow: 0 4px 8px ;
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 641px) {
+
+  body{
+
+          font-size: 12px;
+
+
+
+
+  }
+
+
+
+      
+.main h2{
+font-size: 1.2em;
+
+
+}
+
+.main h3{
+font-size: 1.2em ;
+
+
+}
+
+
+
+
+header{
+
+padding: 12px;
+
+  background-color: #f0f0f0;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+
+.navigation a{
+
+  color: #0c0c0c;
+  text-decoration: none;
+  font-size: 0.5em;
+  font-weight: 300;
+  margin-left: 10px;
+  transition: color 0.3s;
+  
+
+
+ 
+}
+
+
+.title{
+                      font-size: 1.2em;
+
+}
+
+section{
+
+
+      padding: 80px 20px;
+
+
+
+
+}
+
+
+
+.title1{
+
+padding:1.2em ;
+
+}
+
+
+
+
+
+.content{
+
+flex-direction: column;
+align-items: center;
+
+}
+
+
+
+.project-card{
+
+
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+border: 1px solid #fff ;
+min-height: 14em;
+border-radius: 10px; ;
+padding: 10px;
+text-align: center;
+margin: 20px auto;
+width: 20em;
+max-width: 600px;
+background-color: #000000;
+box-shadow: 0 4px 8px ;
+
+
+
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 300px) {
+
+body{
+
+      font-size: 10px;
+
+
+
+
+}
+
+
+
+  
+.main h2{
+font-size: 1.5em;
+
+
+}
+
+.main h3{
+font-size:1.4em ;
+
+
+}
+
+
+
+
+header{
+
+padding: 12px;
+
+background-color: #f0f0f0;
+width: 100%;
+position: fixed;
+z-index: 100;
+display: flex;
+justify-content: space-around;
+
+
+}
+
+
+.navigation a{
+
+color: #0c0c0c;
+text-decoration: none;
+font-size: 0.5em;
+font-weight: 300;
+margin-left: 10px;
+transition: color 0.3s;
+
+
+
+
+}
+
+
+.title{
+                  font-size: 1.2em;
+
+}
+
+section{
+
+
+  padding: 80px 20px;
+
+
+
+
+}
+
+
+
+.title1{
+
+padding:1.2em ;
+
+}
+
+
+.main h2{
+font-size: 0.8em;
+
+
+}
+
+.main h3{
+font-size: 1.4em ;
+
+
+}
+
+
+
+.content{
+
+flex-direction: column;
+align-items: center;
+
+}
+
+
+
+.project-card{
+
+
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+border: 1px solid #fff ;
+min-height: 14em;
+border-radius: 10px; ;
+padding: 10px;
+text-align: center;
+margin: 20px auto;
+width: 20em;
+max-width: 600px;
+background-color: #0f0f0f;
+box-shadow: 0 4px 8px ;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
